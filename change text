@@ -1,0 +1,7 @@
+<script>
+(function () {
+    var now = new Date();
+    var replacementText = "Hi testuser es ist:" + now
+    document.querySelector('#personalisierung span.personalisierungsklasse').textContent = replacementText
+})();
+</script>
